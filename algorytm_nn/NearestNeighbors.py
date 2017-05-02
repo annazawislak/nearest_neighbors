@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import random
 import math
 import numpy
@@ -95,4 +97,5 @@ class nearest_neighbourhood:
         return wynik
 
 
-nearest_neighbourhood.algorytmNN("TSP30.txt")
+if __name__ == '__main__':
+    nearest_neighbourhood.algorytmNN("TSP30.txt")
